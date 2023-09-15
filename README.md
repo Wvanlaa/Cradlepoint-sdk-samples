@@ -2,7 +2,8 @@
 Inspiration based on the Cradlepoint OpenSource SDK's
 ----------
 
-This directory contains the NCOS SDK tools and sample applications. 
+This directory contains the NCOS SDK tools and sample applications mainly based on the Cradlepoint GitHub.
+For the originals please visit: [Cradlepoint GitHub Pages](https://github.com/cradlepoint/sdk-samples/tree/master)
 
 
 ## Documents
