@@ -1,0 +1,27 @@
+{
+    "app": {
+        "auto_start": true,
+        "date": "2023-10-05T08:52:14.100109",
+        "files": {
+            "csclient.py": "0c6a55c889daf7df554ab1d22e3290cbb45540a081a62b485036d98ef01e681b",
+            "lan_clients.py": "40ecf2a0d445922f1fceea25416e54fcc75d0a0ab876f7e074a20c3c15533a2e",
+            "package.ini": "90b13725bce05d2f29b381c2f9ec304ea12d93ae690f5d4f07a2315f2cfaa553",
+            "readme.txt": "d0d28d7883441748df90c0f3be75074d589df2ff567e4b0d93515fc32b2160fc",
+            "start.sh": "e634fcbf0d6aad882bcdc0b7ead2d9459bc8adc0778193c52bf167e779ce485f"
+        },
+        "firmware_major": 7,
+        "firmware_minor": 2,
+        "name": "lan_clients",
+        "notes": "Put lan clients in desc to sync to NCM",
+        "reboot": true,
+        "restart": true,
+        "uuid": "8a7f79cb-b11b-44bc-bd33-0f4ab3f06d60",
+        "vendor": "Cradlepoint",
+        "version_major": 0,
+        "version_minor": 8
+    },
+    "pmf": {
+        "version_major": 1,
+        "version_minor": 0
+    }
+}
