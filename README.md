@@ -22,6 +22,7 @@ This directory contains the NCOS SDK tools and sample applications mainly based 
     - But also create a "custom alert" with the results so it can be send to a system that accepts Webhook API calls (push-API)
     - It runs on the "active WAN" connection regardless what it is, and does not impact services.
     - If "the fastest" sim needs to be picked there are other SDK's that can do that.
+    - The directory also contains a Postman Collection in order to test out the SDK and interact with NCM (5GSpeed.postman_collection.json)
 
 - **lan_clients**
     - Display connected LAN clients (wired or wireless) MAC address on the Asset Identifier field in NCM
