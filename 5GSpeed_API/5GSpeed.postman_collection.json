@@ -1,0 +1,223 @@
+{
+	"info": {
+		"_postman_id": "ac8675a0-c188-4449-811a-f1b3c19fc717",
+		"name": "5GSpeed",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4038019"
+	},
+	"item": [
+		{
+			"name": "get Asset ID for Speedtest SDK",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-CP-API-KEY",
+						"value": "{{CP-API-KEY}}",
+						"type": "text"
+					},
+					{
+						"key": "X-ECM-API-ID",
+						"value": "{{ECM-API-ID}}",
+						"type": "text"
+					},
+					{
+						"key": "X-ECM-API-KEY",
+						"value": "{{ECM-API-KEY}}",
+						"type": "text"
+					},
+					{
+						"key": "X-CP-API-ID",
+						"value": "{{CP-API-ID}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://cradlepointecm.com/api/v2/routers/{{routerID}}/asset_id/",
+					"protocol": "https",
+					"host": [
+						"cradlepointecm",
+						"com"
+					],
+					"path": [
+						"api",
+						"v2",
+						"routers",
+						"{{routerID}}",
+						"asset_id",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Routers name and RouterID",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-CP-API-KEY",
+						"value": "{{CP-API-KEY}}",
+						"type": "text"
+					},
+					{
+						"key": "X-ECM-API-ID",
+						"value": "{{ECM-API-ID}}",
+						"type": "text"
+					},
+					{
+						"key": "X-ECM-API-KEY",
+						"value": "{{ECM-API-KEY}}",
+						"type": "text"
+					},
+					{
+						"key": "X-CP-API-ID",
+						"value": "{{CP-API-ID}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://www.cradlepointecm.com/api/v2/routers/?fields=id,name&limit=500",
+					"protocol": "https",
+					"host": [
+						"www",
+						"cradlepointecm",
+						"com"
+					],
+					"path": [
+						"api",
+						"v2",
+						"routers",
+						""
+					],
+					"query": [
+						{
+							"key": "fields",
+							"value": "id,name"
+						},
+						{
+							"key": "limit",
+							"value": "500"
+						}
+					]
+				},
+				"description": "This pulls the first devices with name and Router ID.\n\nIf more than 500 routers exist the next \"batch\" should be pulled using \"&offset=500\", then \"&offset=1000\" and so on to \"step through\" the total collection of devices.\n\nIf other fields are required to programatically decide \"what to do\", those can be added."
+			},
+			"response": []
+		},
+		{
+			"name": "Clear Assed ID for Speedtest SDK",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "X-CP-API-KEY",
+						"value": "{{CP-API-KEY}}",
+						"type": "text"
+					},
+					{
+						"key": "X-ECM-API-ID",
+						"value": "{{ECM-API-ID}}",
+						"type": "text"
+					},
+					{
+						"key": "X-ECM-API-KEY",
+						"value": "{{ECM-API-KEY}}",
+						"type": "text"
+					},
+					{
+						"key": "X-CP-API-ID",
+						"value": "{{CP-API-ID}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"asset_id\":\"\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cradlepointecm.com/api/v2/routers/{{routerID}}/?X-CP-API-KEY={{CP-API-KEY}}&X-ECM-API-ID={{ECM-API-ID}}&X-ECM-API-KEY={{ECM-API-KEY}}&X-CP-API-ID={{CP-API-ID}}",
+					"protocol": "https",
+					"host": [
+						"cradlepointecm",
+						"com"
+					],
+					"path": [
+						"api",
+						"v2",
+						"routers",
+						"{{routerID}}",
+						""
+					],
+					"query": [
+						{
+							"key": "X-CP-API-KEY",
+							"value": "{{CP-API-KEY}}"
+						},
+						{
+							"key": "X-ECM-API-ID",
+							"value": "{{ECM-API-ID}}"
+						},
+						{
+							"key": "X-ECM-API-KEY",
+							"value": "{{ECM-API-KEY}}"
+						},
+						{
+							"key": "X-CP-API-ID",
+							"value": "{{CP-API-ID}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "ECM-API-KEY",
+			"value": "your"
+		},
+		{
+			"key": "CP-API-KEY",
+			"value": "keys"
+		},
+		{
+			"key": "ECM-API-ID",
+			"value": "go"
+		},
+		{
+			"key": "CP-API-ID",
+			"value": "here"
+		},
+		{
+			"key": "routerID",
+			"value": "RouterID from NCM"
+		}
+	]
+}
