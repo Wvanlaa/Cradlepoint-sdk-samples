@@ -1,0 +1,31 @@
+{
+    "app": {
+        "auto_start": true,
+        "date": "2023-12-06T13:19:12.902256",
+        "files": {
+            "5GSpeed_API.py": "fc486a4ac728d779bbf541a6367b75d6a4653bbf909079554ca451363df3e7f1",
+            "README.txt": "17778bcba9470363cf4d69ec92f9d858461a0b26057b055665c9bdc6f50c4160",
+            "_csv.py": "b778711ec11f2d4e9395436fc369710cdacc49fdbfa762e66443a6e24d542bd1",
+            "csclient.py": "d854270f11d142bdc645517f5d76fced9ed670a8c2bbab038bc9692f7ee50baa",
+            "csv.py": "0f46b397bda6998a4b7083478f22cd02bd6454a3dd1219a5874562eb3784244d",
+            "package.ini": "b007ea3727a75136053a048798e01592eedb1d7fd6e7e7911595514f1ceefe1c",
+            "speedtest.py": "519d5938d78b8f911e8ac2843b61bf95c6351b6b5bb8c933c103f22274509d55",
+            "start.sh": "bb828b44f85294040d02edf33de58ddfc2475d2f9fd10f61f18e0ee072e22a3c",
+            "timeit.py": "d0884d28561a0dafce6492e8f526ad53b0ad49f38e9f124573c749a4941447f4"
+        },
+        "firmware_major": 7,
+        "firmware_minor": 23,
+        "name": "5GSpeed_API",
+        "notes": "Speedtest based on OOKLA triggered by API call",
+        "reboot": true,
+        "restart": true,
+        "uuid": "6a968e9e-71c5-4cc8-8e88-3de64e2eb3e9",
+        "vendor": "5GSpeed",
+        "version_major": 2,
+        "version_minor": 0
+    },
+    "pmf": {
+        "version_major": 1,
+        "version_minor": 0
+    }
+}
