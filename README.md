@@ -26,6 +26,13 @@ This directory contains the NCOS SDK tools and sample applications mainly based 
 
 - **lan_clients**
     - Display connected LAN clients (wired or wireless) MAC address on the Asset Identifier field in NCM
+
+- **ncxtunnelstatus**
+    - Display the NetCloud eXchange tunnel status in NCM Identifier field
+    - Green = active tunnel or primary tunnel
+    - Yellow = standby tunnel (only exists in cold-standby situation)
+    - Red = all other (non operational) status
+    - No configuration or input needed.
  
 - **built_apps**
     - Built and ready to use versions of the apps
