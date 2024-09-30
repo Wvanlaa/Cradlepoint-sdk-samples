@@ -33,6 +33,10 @@ This directory contains the NCOS SDK tools and sample applications mainly based 
     - Yellow = standby tunnel (only exists in cold-standby situation)
     - Red = all other (non operational) status
     - No configuration or input needed.
+
+ - **ports_status**
+     -  Modified version of sample ports_status Ericsson SDK
+     -  Added VPN Tunnel Status, and name now also shown with IPVerify test and VPN Tunnel status.
  
 - **built_apps**
     - Built and ready to use versions of the apps
