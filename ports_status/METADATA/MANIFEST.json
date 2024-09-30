@@ -1,0 +1,29 @@
+{
+    "app": {
+        "auto_start": true,
+        "date": "2024-09-30T10:22:45.475678",
+        "files": {
+            "csclient.py": "d854270f11d142bdc645517f5d76fced9ed670a8c2bbab038bc9692f7ee50baa",
+            "package.ini": "8392a436826e56fc833ae9ab542a3f27b5f7655788e89ece6506f34154752eb2",
+            "ports_status.py": "b34077dd6eac855550951fa6fa2919e0a17ccac97766643a2673f9c33493d4ac",
+            "readme.txt": "b3834ad6121d7adc80ecdff67a579102229019f87d0a782370c7aba46ed7b06d",
+            "start.sh": "320bb13a734a6a4af34e4a830b571c2088b40618dc7c9a9a3690a983eef457f9"
+        },
+        "firmware_major": 7,
+        "firmware_minor": 2,
+        "name": "ports_status",
+        "notes": "Sets description field to reflect LAN/WAN/WWAN/Modem/IP Verify/IPSec VPN status",
+        "reboot": true,
+        "restart": true,
+        "uuid": "7af63d02-547e-4235-adbe-48ad427d1e18",
+        "vendor": "Nathan Wiens + Wim van Laarhoven",
+        "version_major": 1,
+        "version_minor": 45,
+        "version_patch": 0
+    },
+    "pmf": {
+        "version_major": 1,
+        "version_minor": 0,
+        "version_patch": 0
+    }
+}
