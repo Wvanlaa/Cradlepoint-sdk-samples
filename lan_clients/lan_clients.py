@@ -1,4 +1,4 @@
-# lan_clients - put lan clients in desc to sync to NCM
+# lan_clients - put lan clients in Asset Identifier field to sync to NCM
 import time
 from csclient import EventingCSClient
 cp = EventingCSClient('LAN_Clients')
