@@ -26,6 +26,7 @@ This directory contains the NCOS SDK tools and sample applications mainly based 
 
 - **lan_clients**
     - Display connected LAN clients (wired or wireless) MAC address on the Asset Identifier field in NCM
+    - Runs every 90 seconds
 
 - **ncxtunnelstatus**
     - Display the NetCloud eXchange tunnel status in NCM Identifier field
